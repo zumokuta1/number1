@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: #efefef;
+        }
+        html{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        header{
+            background-color: #364552;
+            color: #ffffff;
+            padding: 3rem 2rem;
+        }
+        header h1{
+            font-size: 4rem;
+            text-align: center;
+        }
+        .container{
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        section article{
+            background-color: #ffffff;
+            margin: 1rem 0;
+            border-radius: 0.5rem;
+            padding: 0.25rem 0;
+        }
+        section article h2{
+            margin: 1rem;
+        }
+        section article p{
+            margin: 1rem;
+        }
+        footer{
+            background-color: #222;
+            padding: 3rem;
+            color: #fff;
+        }
+        footer section{
+            float: right;    
+        }
+        footer p{
+            margin: 0;
+        }
+        a{
+            text-decoration: none;
+            color: #fff;
+            transition: 1s font-size ease-in-out;
+        }
+        a:hover{
+            cursor: grabbing;
+            font-size: 1.5rem;
+        }
+        h2{
+            transition: 1s font-size ease-in-out;
+            text-align: center;
+        }
+        h2:hover{
+            font-size: 2rem;
+            cursor: grabbing;
+        }
+        .text{
+            text-align: center;
+            transition: 1s font-size ease-in-out;
+        }
+        .text:hover{
+            font-size: 2rem;
+            cursor: grabbing;
+        }
+        img{
+            border-radius: 1rem 0rem 1rem 0rem;
+            box-shadow:  00.5rem 1rem#00000071;
+            margin-left: 0.45rem;
+        }
+        footer p{
+            transition: 1s font-size ease-in-out;
+        }
+        footer p :hover{
+            font-size: 2rem;
+            cursor: grabbing;
+        }
+        
+        /* Media queries para pantallas más pequeñas */
+        @media screen and (max-width: 768px) {
+            header h1{
+                font-size: 3rem;
+            }
+            .container{
+                max-width: 600px;
+                margin: 0 1rem;
+            }
+            section article{
+                margin: 0.5rem 0;
+            }
+            section article p{
+                margin: 0.5rem;
+            }
+            a{
+                font-size: 4.5rem;
+            }
+        }
+        
+        /* Media queries para pantallas aún más pequeñas */
+        @media screen and (max-width: 480px) {
+            header h1{
+                font-size: 2rem;
+            }
+            .container{
+                max-width: 90%;
+                margin: 0.5rem;
+            }
+            section article{
+                margin: 0.25rem 0;
+            }
+            section article h2{
+                font-size: 1.5rem;
+            }
+            section article p{
+                margin: 0.25rem;
+                font-size: 0.8rem;
+            }
+            footer section{
+                float: none;
+                margin-bottom: 1rem;
+            }
+            
+            a{
+                font-size: 4.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <start id="inicio"></start>
+    <header>
+        <h1 id="titulo">Blog de la familia de joel</h1>
+        <h2 id="subheader">Poner el mouse arriba del texto para agrandarlo</h2>
+    </header>
+    <section class="container">
+        <article class="post">
+            <h2>Mi dia a dia</h2>
+            <p class="text">El dia a dia de joel</p>
+            <img src="coffee.png" width="400" />
+            <p class="text">En Mi dia a dia me levanto, me baño me cambio desayuno y me voy al colegio, cuando vuelvo almuerzo, me reposo y me pongo a hacer tareas, si hay practica de futbol voy y si hay clase de programacion entro, salgo y hago las tareas que hayan dejado y despues me voy a dormir a las 10:00</p>
+        </article>
+        <article class="post">
+            <h2>El dia a dia de mi mama</h2>
+            <p class="text">Su dia a dia</p>
+            <img src="monster.png" width="400" />
+            <p class="text">En Me levanto a las cinco de la mañana, hago el desayuno, lavo los platos, sirvo el desayuno y comemos, después ayudo a preparar a mi hijo para el colegio, me voy a bañar y alisto para trabajar desde casa.Luego a veces hago el almuerzo y espero a mi hijo para comer juntos, descanso un momento y charlamos. DespuÉs sigo trabajando hasta las 5 de la tarde, cenamos en familia, organizo un poco la casa, descanso y me voy a dormir a las 10:00 p.m.</p>
+        </article>
+        <article class="post">
+            <h2>El dia a dia de mi papa</h2>
+            <p class="text">Su dia a dia</p>
+            <img src="guitarra.png" width="400" />
+            <p class="text">En Mi dia a dia Me levanto a las 6:28 a mirar el celular, depues me voy a buscar desayuno en la cocina, y llevo a mi hijo al colegio a las 6:38, a las 6:PM cuando llego del trabajo pregunto como esta mi hijo, miramos a los animales les echamos agua y comida hablo con joel, a veces salimos al parque y me voy a dormir despues.</p>
+        </article>
+    </section>
+    <footer>
+        <section>
+        <a href="#inicio">Ir al comienzo</a>
+        <a href="mailto:joelbome.730@gmail.com">Contáctame aquí</a>
+    </section>
+        <p>Copyright 2021</p>
+    </footer>
+</body>
+</html>
