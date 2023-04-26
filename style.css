@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    background-color: #efefef;
+}
+html{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    background-color: #364552;
+    color: #ffffff;
+    padding: 3rem 2rem;
+}
+header h1{
+    font-size: 4rem;
+    text-align: center;
+}
+#subheader{
+    font-size: 0.3rem;  
+}
+.container{
+    width: 400px;
+    margin: 0 auto;
+}
+section article{
+    background-color: #ffffff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    margin: 15px;
+}
+section article h2{
+    margin: 1rem;
+}
+section article p{
+    margin: 1rem;
+}
+section article{
+    box-shadow: 0 0.5rem 0.8rem rgba(0,0,0,0.3); 
+}
+footer{
+    background-color: #222;
+    padding: 3rem;
+    color: #fff;
+}
+footer section{
+    float: right;    
+}
+footer p{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    transition: 1s font-size linear;
+}
+a:hover{
+    cursor: grabbing;
+    font-size: 1.5rem;
+}
+h2{
+    transition: 1s font-size linear;
+}
+h2:hover{
+    font-size: 2rem;
+    cursor: grabbing;
+}
+
+p{
+    transition: 1s font-size linear;
+}
+p:hover{
+    font-size: 2rem;
+    cursor: grabbing;
+}
